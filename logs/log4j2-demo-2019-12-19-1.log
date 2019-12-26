@@ -1,0 +1,260 @@
+[2019-12-19 16:10:25,174][INFO][main][org.springframework.boot.StartupInfoLogger] Starting DemoApplication on SD-20191119HKSM with PID 17820 (F:\demo\target\classes started by Administrator in F:\demo)
+[2019-12-19 16:10:25,177][INFO][main][org.springframework.boot.SpringApplication] No active profile set, falling back to default profiles: default
+[2019-12-19 16:10:26,008][INFO][main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[2019-12-19 16:10:26,015][INFO][main][org.apache.juli.logging.DirectJDKLog] Initializing ProtocolHandler ["http-nio-8080"]
+[2019-12-19 16:10:26,016][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting service [Tomcat]
+[2019-12-19 16:10:26,023][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2019-12-19 16:10:26,097][INFO][main][org.apache.juli.logging.DirectJDKLog] Initializing Spring embedded WebApplicationContext
+[2019-12-19 16:10:26,097][INFO][main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 861 ms
+[2019-12-19 16:10:26,224][INFO][main][com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2019-12-19 16:10:26,367][INFO][main][com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2019-12-19 16:10:26,611][INFO][main][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] Initializing ExecutorService 'applicationTaskExecutor'
+[2019-12-19 16:10:26,658][INFO][main][org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page template: index
+[2019-12-19 16:10:26,829][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting ProtocolHandler ["http-nio-8080"]
+[2019-12-19 16:10:26,846][INFO][main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[2019-12-19 16:10:26,848][INFO][main][org.springframework.boot.StartupInfoLogger] Started DemoApplication in 1.927 seconds (JVM running for 3.383)
+[2019-12-19 16:10:32,406][INFO][http-nio-8080-exec-1][org.apache.juli.logging.DirectJDKLog] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2019-12-19 16:10:32,406][INFO][http-nio-8080-exec-1][org.springframework.web.servlet.FrameworkServlet] Initializing Servlet 'dispatcherServlet'
+[2019-12-19 16:10:32,412][INFO][http-nio-8080-exec-1][org.springframework.web.servlet.FrameworkServlet] Completed initialization in 6 ms
+[2019-12-19 16:18:52,257][INFO][main][org.springframework.boot.StartupInfoLogger] Starting DemoApplication on SD-20191119HKSM with PID 20704 (F:\demo\target\classes started by Administrator in F:\demo)
+[2019-12-19 16:18:52,262][INFO][main][org.springframework.boot.SpringApplication] No active profile set, falling back to default profiles: default
+[2019-12-19 16:18:53,322][INFO][main][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2019-12-19 16:18:53,574][INFO][main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[2019-12-19 16:18:53,585][INFO][main][org.apache.juli.logging.DirectJDKLog] Initializing ProtocolHandler ["http-nio-8080"]
+[2019-12-19 16:18:53,586][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting service [Tomcat]
+[2019-12-19 16:18:53,586][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2019-12-19 16:18:53,684][INFO][main][org.apache.juli.logging.DirectJDKLog] Initializing Spring embedded WebApplicationContext
+[2019-12-19 16:18:53,684][INFO][main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 1347 ms
+[2019-12-19 16:18:53,849][INFO][main][com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2019-12-19 16:18:54,011][INFO][main][com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2019-12-19 16:18:54,594][INFO][main][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] Initializing ExecutorService 'applicationTaskExecutor'
+[2019-12-19 16:18:54,672][INFO][main][org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page template: index
+[2019-12-19 16:18:54,918][INFO][main][springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] Context refreshed
+[2019-12-19 16:18:54,930][INFO][main][springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] Found 1 custom documentation plugin(s)
+[2019-12-19 16:18:54,943][INFO][main][springfox.documentation.spring.web.scanners.ApiListingReferenceScanner] Scanning for api listing references
+[2019-12-19 16:18:55,239][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting ProtocolHandler ["http-nio-8080"]
+[2019-12-19 16:18:55,258][INFO][main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[2019-12-19 16:18:55,261][INFO][main][org.springframework.boot.StartupInfoLogger] Started DemoApplication in 3.237 seconds (JVM running for 4.849)
+[2019-12-19 16:19:09,681][INFO][http-nio-8080-exec-1][org.apache.juli.logging.DirectJDKLog] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2019-12-19 16:19:09,682][INFO][http-nio-8080-exec-1][org.springframework.web.servlet.FrameworkServlet] Initializing Servlet 'dispatcherServlet'
+[2019-12-19 16:19:09,687][INFO][http-nio-8080-exec-1][org.springframework.web.servlet.FrameworkServlet] Completed initialization in 5 ms
+[2019-12-19 16:21:50,695][INFO][main][org.springframework.boot.StartupInfoLogger] Starting DemoApplication on SD-20191119HKSM with PID 6484 (F:\demo\target\classes started by Administrator in F:\demo)
+[2019-12-19 16:21:50,699][INFO][main][org.springframework.boot.SpringApplication] No active profile set, falling back to default profiles: default
+[2019-12-19 16:21:51,504][INFO][main][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2019-12-19 16:21:51,672][INFO][main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[2019-12-19 16:21:51,679][INFO][main][org.apache.juli.logging.DirectJDKLog] Initializing ProtocolHandler ["http-nio-8080"]
+[2019-12-19 16:21:51,680][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting service [Tomcat]
+[2019-12-19 16:21:51,680][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2019-12-19 16:21:51,760][INFO][main][org.apache.juli.logging.DirectJDKLog] Initializing Spring embedded WebApplicationContext
+[2019-12-19 16:21:51,760][INFO][main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 993 ms
+[2019-12-19 16:21:51,901][INFO][main][com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2019-12-19 16:21:52,049][INFO][main][com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2019-12-19 16:21:52,483][INFO][main][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] Initializing ExecutorService 'applicationTaskExecutor'
+[2019-12-19 16:21:52,530][INFO][main][org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page template: index
+[2019-12-19 16:21:52,706][INFO][main][springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] Context refreshed
+[2019-12-19 16:21:52,722][INFO][main][springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] Found 1 custom documentation plugin(s)
+[2019-12-19 16:21:52,736][INFO][main][springfox.documentation.spring.web.scanners.ApiListingReferenceScanner] Scanning for api listing references
+[2019-12-19 16:21:53,039][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting ProtocolHandler ["http-nio-8080"]
+[2019-12-19 16:21:53,060][INFO][main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[2019-12-19 16:21:53,063][INFO][main][org.springframework.boot.StartupInfoLogger] Started DemoApplication in 2.614 seconds (JVM running for 4.113)
+[2019-12-19 16:21:59,629][INFO][http-nio-8080-exec-1][org.apache.juli.logging.DirectJDKLog] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2019-12-19 16:21:59,630][INFO][http-nio-8080-exec-1][org.springframework.web.servlet.FrameworkServlet] Initializing Servlet 'dispatcherServlet'
+[2019-12-19 16:21:59,636][INFO][http-nio-8080-exec-1][org.springframework.web.servlet.FrameworkServlet] Completed initialization in 6 ms
+[2019-12-19 16:24:22,495][INFO][main][org.springframework.boot.StartupInfoLogger] Starting DemoApplication on SD-20191119HKSM with PID 6836 (F:\demo\target\classes started by Administrator in F:\demo)
+[2019-12-19 16:24:22,499][INFO][main][org.springframework.boot.SpringApplication] No active profile set, falling back to default profiles: default
+[2019-12-19 16:24:23,305][INFO][main][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2019-12-19 16:24:23,478][INFO][main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[2019-12-19 16:24:23,485][INFO][main][org.apache.juli.logging.DirectJDKLog] Initializing ProtocolHandler ["http-nio-8080"]
+[2019-12-19 16:24:23,486][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting service [Tomcat]
+[2019-12-19 16:24:23,486][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2019-12-19 16:24:23,566][INFO][main][org.apache.juli.logging.DirectJDKLog] Initializing Spring embedded WebApplicationContext
+[2019-12-19 16:24:23,566][INFO][main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 1005 ms
+[2019-12-19 16:24:23,705][INFO][main][com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2019-12-19 16:24:23,864][INFO][main][com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2019-12-19 16:24:24,278][INFO][main][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] Initializing ExecutorService 'applicationTaskExecutor'
+[2019-12-19 16:24:24,323][INFO][main][org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page template: index
+[2019-12-19 16:24:24,467][INFO][main][springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] Context refreshed
+[2019-12-19 16:24:24,480][INFO][main][springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] Found 1 custom documentation plugin(s)
+[2019-12-19 16:24:24,491][INFO][main][springfox.documentation.spring.web.scanners.ApiListingReferenceScanner] Scanning for api listing references
+[2019-12-19 16:24:24,710][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting ProtocolHandler ["http-nio-8080"]
+[2019-12-19 16:24:24,730][INFO][main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[2019-12-19 16:24:24,733][INFO][main][org.springframework.boot.StartupInfoLogger] Started DemoApplication in 2.48 seconds (JVM running for 4.088)
+[2019-12-19 16:24:46,336][INFO][http-nio-8080-exec-1][org.apache.juli.logging.DirectJDKLog] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2019-12-19 16:24:46,337][INFO][http-nio-8080-exec-1][org.springframework.web.servlet.FrameworkServlet] Initializing Servlet 'dispatcherServlet'
+[2019-12-19 16:24:46,341][INFO][http-nio-8080-exec-1][org.springframework.web.servlet.FrameworkServlet] Completed initialization in 4 ms
+[2019-12-19 16:27:49,184][INFO][main][org.springframework.boot.StartupInfoLogger] Starting DemoApplication on SD-20191119HKSM with PID 21744 (F:\demo\target\classes started by Administrator in F:\demo)
+[2019-12-19 16:27:49,188][INFO][main][org.springframework.boot.SpringApplication] No active profile set, falling back to default profiles: default
+[2019-12-19 16:27:50,039][INFO][main][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2019-12-19 16:27:50,261][INFO][main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[2019-12-19 16:27:50,277][INFO][main][org.apache.juli.logging.DirectJDKLog] Initializing ProtocolHandler ["http-nio-8080"]
+[2019-12-19 16:27:50,278][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting service [Tomcat]
+[2019-12-19 16:27:50,279][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2019-12-19 16:27:50,510][INFO][main][org.apache.juli.logging.DirectJDKLog] Initializing Spring embedded WebApplicationContext
+[2019-12-19 16:27:50,510][INFO][main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 1251 ms
+[2019-12-19 16:27:50,687][INFO][main][com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2019-12-19 16:27:50,874][INFO][main][com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2019-12-19 16:27:51,575][INFO][main][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] Initializing ExecutorService 'applicationTaskExecutor'
+[2019-12-19 16:27:51,632][INFO][main][org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page template: index
+[2019-12-19 16:27:51,816][INFO][main][springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] Context refreshed
+[2019-12-19 16:27:51,834][INFO][main][springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] Found 1 custom documentation plugin(s)
+[2019-12-19 16:27:51,847][INFO][main][springfox.documentation.spring.web.scanners.ApiListingReferenceScanner] Scanning for api listing references
+[2019-12-19 16:27:52,098][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting ProtocolHandler ["http-nio-8080"]
+[2019-12-19 16:27:52,123][INFO][main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[2019-12-19 16:27:52,127][INFO][main][org.springframework.boot.StartupInfoLogger] Started DemoApplication in 3.2 seconds (JVM running for 4.855)
+[2019-12-19 16:27:53,440][INFO][http-nio-8080-exec-1][org.apache.juli.logging.DirectJDKLog] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2019-12-19 16:27:53,441][INFO][http-nio-8080-exec-1][org.springframework.web.servlet.FrameworkServlet] Initializing Servlet 'dispatcherServlet'
+[2019-12-19 16:27:53,447][INFO][http-nio-8080-exec-1][org.springframework.web.servlet.FrameworkServlet] Completed initialization in 6 ms
+[2019-12-19 16:29:46,126][INFO][main][org.springframework.boot.StartupInfoLogger] Starting DemoApplication on SD-20191119HKSM with PID 15268 (F:\demo\target\classes started by Administrator in F:\demo)
+[2019-12-19 16:29:46,132][INFO][main][org.springframework.boot.SpringApplication] No active profile set, falling back to default profiles: default
+[2019-12-19 16:29:47,170][INFO][main][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2019-12-19 16:29:47,365][INFO][main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[2019-12-19 16:29:47,374][INFO][main][org.apache.juli.logging.DirectJDKLog] Initializing ProtocolHandler ["http-nio-8080"]
+[2019-12-19 16:29:47,375][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting service [Tomcat]
+[2019-12-19 16:29:47,376][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2019-12-19 16:29:47,476][INFO][main][org.apache.juli.logging.DirectJDKLog] Initializing Spring embedded WebApplicationContext
+[2019-12-19 16:29:47,477][INFO][main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 1249 ms
+[2019-12-19 16:29:47,739][INFO][main][com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2019-12-19 16:29:48,061][INFO][main][com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2019-12-19 16:29:48,689][INFO][main][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] Initializing ExecutorService 'applicationTaskExecutor'
+[2019-12-19 16:29:48,767][INFO][main][org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page template: index
+[2019-12-19 16:29:48,940][INFO][main][springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] Context refreshed
+[2019-12-19 16:29:48,953][INFO][main][springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] Found 1 custom documentation plugin(s)
+[2019-12-19 16:29:48,965][INFO][main][springfox.documentation.spring.web.scanners.ApiListingReferenceScanner] Scanning for api listing references
+[2019-12-19 16:29:49,211][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting ProtocolHandler ["http-nio-8080"]
+[2019-12-19 16:29:49,238][INFO][main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[2019-12-19 16:29:49,242][INFO][main][org.springframework.boot.StartupInfoLogger] Started DemoApplication in 3.452 seconds (JVM running for 5.141)
+[2019-12-19 16:30:04,481][INFO][http-nio-8080-exec-1][org.apache.juli.logging.DirectJDKLog] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2019-12-19 16:30:04,481][INFO][http-nio-8080-exec-1][org.springframework.web.servlet.FrameworkServlet] Initializing Servlet 'dispatcherServlet'
+[2019-12-19 16:30:04,486][INFO][http-nio-8080-exec-1][org.springframework.web.servlet.FrameworkServlet] Completed initialization in 4 ms
+[2019-12-19 16:30:23,929][INFO][main][org.springframework.boot.StartupInfoLogger] Starting DemoApplication on SD-20191119HKSM with PID 22480 (F:\demo\target\classes started by Administrator in F:\demo)
+[2019-12-19 16:30:23,934][INFO][main][org.springframework.boot.SpringApplication] No active profile set, falling back to default profiles: default
+[2019-12-19 16:30:25,125][INFO][main][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2019-12-19 16:30:25,361][INFO][main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[2019-12-19 16:30:25,370][INFO][main][org.apache.juli.logging.DirectJDKLog] Initializing ProtocolHandler ["http-nio-8080"]
+[2019-12-19 16:30:25,372][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting service [Tomcat]
+[2019-12-19 16:30:25,373][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2019-12-19 16:30:25,475][INFO][main][org.apache.juli.logging.DirectJDKLog] Initializing Spring embedded WebApplicationContext
+[2019-12-19 16:30:25,475][INFO][main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 1467 ms
+[2019-12-19 16:30:25,821][INFO][main][com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2019-12-19 16:30:26,037][INFO][main][com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2019-12-19 16:30:26,568][INFO][main][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] Initializing ExecutorService 'applicationTaskExecutor'
+[2019-12-19 16:30:26,613][INFO][main][org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page template: index
+[2019-12-19 16:30:26,761][INFO][main][springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] Context refreshed
+[2019-12-19 16:30:26,774][INFO][main][springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] Found 1 custom documentation plugin(s)
+[2019-12-19 16:30:26,786][INFO][main][springfox.documentation.spring.web.scanners.ApiListingReferenceScanner] Scanning for api listing references
+[2019-12-19 16:30:27,008][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting ProtocolHandler ["http-nio-8080"]
+[2019-12-19 16:30:27,027][INFO][main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[2019-12-19 16:30:27,031][INFO][main][org.springframework.boot.StartupInfoLogger] Started DemoApplication in 3.428 seconds (JVM running for 4.938)
+[2019-12-19 16:32:06,577][INFO][http-nio-8080-exec-1][org.apache.juli.logging.DirectJDKLog] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2019-12-19 16:32:06,577][INFO][http-nio-8080-exec-1][org.springframework.web.servlet.FrameworkServlet] Initializing Servlet 'dispatcherServlet'
+[2019-12-19 16:32:06,582][INFO][http-nio-8080-exec-1][org.springframework.web.servlet.FrameworkServlet] Completed initialization in 5 ms
+[2019-12-19 16:35:08,599][INFO][main][org.springframework.boot.StartupInfoLogger] Starting DemoApplication on SD-20191119HKSM with PID 14588 (F:\demo\target\classes started by Administrator in F:\demo)
+[2019-12-19 16:35:08,603][INFO][main][org.springframework.boot.SpringApplication] No active profile set, falling back to default profiles: default
+[2019-12-19 16:35:09,466][INFO][main][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2019-12-19 16:35:09,661][INFO][main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[2019-12-19 16:35:09,669][INFO][main][org.apache.juli.logging.DirectJDKLog] Initializing ProtocolHandler ["http-nio-8080"]
+[2019-12-19 16:35:09,670][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting service [Tomcat]
+[2019-12-19 16:35:09,670][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2019-12-19 16:35:09,768][INFO][main][org.apache.juli.logging.DirectJDKLog] Initializing Spring embedded WebApplicationContext
+[2019-12-19 16:35:09,768][INFO][main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 1100 ms
+[2019-12-19 16:35:09,925][INFO][main][com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2019-12-19 16:35:10,108][INFO][main][com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2019-12-19 16:35:10,532][INFO][main][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] Initializing ExecutorService 'applicationTaskExecutor'
+[2019-12-19 16:35:10,577][INFO][main][org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page template: index
+[2019-12-19 16:35:10,752][INFO][main][springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] Context refreshed
+[2019-12-19 16:35:10,766][INFO][main][springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] Found 1 custom documentation plugin(s)
+[2019-12-19 16:35:10,786][INFO][main][springfox.documentation.spring.web.scanners.ApiListingReferenceScanner] Scanning for api listing references
+[2019-12-19 16:35:11,067][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting ProtocolHandler ["http-nio-8080"]
+[2019-12-19 16:35:11,084][INFO][main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[2019-12-19 16:35:11,086][INFO][main][org.springframework.boot.StartupInfoLogger] Started DemoApplication in 2.741 seconds (JVM running for 4.462)
+[2019-12-19 16:35:27,655][INFO][http-nio-8080-exec-1][org.apache.juli.logging.DirectJDKLog] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2019-12-19 16:35:27,655][INFO][http-nio-8080-exec-1][org.springframework.web.servlet.FrameworkServlet] Initializing Servlet 'dispatcherServlet'
+[2019-12-19 16:35:27,662][INFO][http-nio-8080-exec-1][org.springframework.web.servlet.FrameworkServlet] Completed initialization in 6 ms
+[2019-12-19 16:41:37,205][INFO][main][org.springframework.boot.StartupInfoLogger] Starting DemoApplication on SD-20191119HKSM with PID 15188 (F:\demo\target\classes started by Administrator in F:\demo)
+[2019-12-19 16:41:37,210][INFO][main][org.springframework.boot.SpringApplication] No active profile set, falling back to default profiles: default
+[2019-12-19 16:41:38,247][INFO][main][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2019-12-19 16:41:38,444][INFO][main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[2019-12-19 16:41:38,451][INFO][main][org.apache.juli.logging.DirectJDKLog] Initializing ProtocolHandler ["http-nio-8080"]
+[2019-12-19 16:41:38,452][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting service [Tomcat]
+[2019-12-19 16:41:38,453][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2019-12-19 16:41:38,534][INFO][main][org.apache.juli.logging.DirectJDKLog] Initializing Spring embedded WebApplicationContext
+[2019-12-19 16:41:38,535][INFO][main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 1242 ms
+[2019-12-19 16:41:38,705][INFO][main][com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2019-12-19 16:41:38,862][INFO][main][com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2019-12-19 16:41:39,500][INFO][main][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] Initializing ExecutorService 'applicationTaskExecutor'
+[2019-12-19 16:41:39,583][INFO][main][org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page template: index
+[2019-12-19 16:41:39,869][INFO][main][springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] Context refreshed
+[2019-12-19 16:41:39,887][INFO][main][springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] Found 1 custom documentation plugin(s)
+[2019-12-19 16:41:39,958][INFO][main][springfox.documentation.spring.web.scanners.ApiListingReferenceScanner] Scanning for api listing references
+[2019-12-19 16:41:40,251][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting ProtocolHandler ["http-nio-8080"]
+[2019-12-19 16:41:40,268][INFO][main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[2019-12-19 16:41:40,271][INFO][main][org.springframework.boot.StartupInfoLogger] Started DemoApplication in 3.396 seconds (JVM running for 5.225)
+[2019-12-19 16:42:10,578][INFO][http-nio-8080-exec-1][org.apache.juli.logging.DirectJDKLog] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2019-12-19 16:42:10,579][INFO][http-nio-8080-exec-1][org.springframework.web.servlet.FrameworkServlet] Initializing Servlet 'dispatcherServlet'
+[2019-12-19 16:42:10,583][INFO][http-nio-8080-exec-1][org.springframework.web.servlet.FrameworkServlet] Completed initialization in 4 ms
+[2019-12-19 16:43:02,966][INFO][main][org.springframework.boot.StartupInfoLogger] Starting DemoApplication on SD-20191119HKSM with PID 21248 (F:\demo\target\classes started by Administrator in F:\demo)
+[2019-12-19 16:43:02,970][INFO][main][org.springframework.boot.SpringApplication] No active profile set, falling back to default profiles: default
+[2019-12-19 16:43:03,993][INFO][main][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2019-12-19 16:43:04,163][INFO][main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[2019-12-19 16:43:04,170][INFO][main][org.apache.juli.logging.DirectJDKLog] Initializing ProtocolHandler ["http-nio-8080"]
+[2019-12-19 16:43:04,171][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting service [Tomcat]
+[2019-12-19 16:43:04,171][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2019-12-19 16:43:04,245][INFO][main][org.apache.juli.logging.DirectJDKLog] Initializing Spring embedded WebApplicationContext
+[2019-12-19 16:43:04,245][INFO][main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 1207 ms
+[2019-12-19 16:43:04,381][INFO][main][com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2019-12-19 16:43:04,531][INFO][main][com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2019-12-19 16:43:04,955][INFO][main][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] Initializing ExecutorService 'applicationTaskExecutor'
+[2019-12-19 16:43:05,000][INFO][main][org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page template: index
+[2019-12-19 16:43:05,139][INFO][main][springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] Context refreshed
+[2019-12-19 16:43:05,152][INFO][main][springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] Found 1 custom documentation plugin(s)
+[2019-12-19 16:43:05,164][INFO][main][springfox.documentation.spring.web.scanners.ApiListingReferenceScanner] Scanning for api listing references
+[2019-12-19 16:43:05,392][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting ProtocolHandler ["http-nio-8080"]
+[2019-12-19 16:43:05,417][INFO][main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[2019-12-19 16:43:05,420][INFO][main][org.springframework.boot.StartupInfoLogger] Started DemoApplication in 2.684 seconds (JVM running for 4.23)
+[2019-12-19 16:43:07,622][INFO][http-nio-8080-exec-1][org.apache.juli.logging.DirectJDKLog] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2019-12-19 16:43:07,623][INFO][http-nio-8080-exec-1][org.springframework.web.servlet.FrameworkServlet] Initializing Servlet 'dispatcherServlet'
+[2019-12-19 16:43:07,631][INFO][http-nio-8080-exec-1][org.springframework.web.servlet.FrameworkServlet] Completed initialization in 8 ms
+[2019-12-19 16:43:45,131][INFO][main][org.springframework.boot.StartupInfoLogger] Starting DemoApplication on SD-20191119HKSM with PID 21780 (F:\demo\target\classes started by Administrator in F:\demo)
+[2019-12-19 16:43:45,134][INFO][main][org.springframework.boot.SpringApplication] No active profile set, falling back to default profiles: default
+[2019-12-19 16:43:46,312][INFO][main][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2019-12-19 16:43:46,500][INFO][main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[2019-12-19 16:43:46,526][INFO][main][org.apache.juli.logging.DirectJDKLog] Initializing ProtocolHandler ["http-nio-8080"]
+[2019-12-19 16:43:46,527][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting service [Tomcat]
+[2019-12-19 16:43:46,528][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2019-12-19 16:43:46,704][INFO][main][org.apache.juli.logging.DirectJDKLog] Initializing Spring embedded WebApplicationContext
+[2019-12-19 16:43:46,704][INFO][main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 1507 ms
+[2019-12-19 16:43:46,872][INFO][main][com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2019-12-19 16:43:47,025][INFO][main][com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2019-12-19 16:43:47,491][INFO][main][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] Initializing ExecutorService 'applicationTaskExecutor'
+[2019-12-19 16:43:47,539][INFO][main][org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page template: index
+[2019-12-19 16:43:47,681][INFO][main][springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] Context refreshed
+[2019-12-19 16:43:47,694][INFO][main][springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] Found 1 custom documentation plugin(s)
+[2019-12-19 16:43:47,704][INFO][main][springfox.documentation.spring.web.scanners.ApiListingReferenceScanner] Scanning for api listing references
+[2019-12-19 16:43:47,951][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting ProtocolHandler ["http-nio-8080"]
+[2019-12-19 16:43:47,970][INFO][main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[2019-12-19 16:43:47,974][INFO][main][org.springframework.boot.StartupInfoLogger] Started DemoApplication in 3.082 seconds (JVM running for 4.488)
+[2019-12-19 16:43:49,788][INFO][http-nio-8080-exec-1][org.apache.juli.logging.DirectJDKLog] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2019-12-19 16:43:49,788][INFO][http-nio-8080-exec-1][org.springframework.web.servlet.FrameworkServlet] Initializing Servlet 'dispatcherServlet'
+[2019-12-19 16:43:49,798][INFO][http-nio-8080-exec-1][org.springframework.web.servlet.FrameworkServlet] Completed initialization in 10 ms
+[2019-12-19 16:45:03,415][INFO][main][org.springframework.boot.StartupInfoLogger] Starting DemoApplication on SD-20191119HKSM with PID 22172 (F:\demo\target\classes started by Administrator in F:\demo)
+[2019-12-19 16:45:03,422][INFO][main][org.springframework.boot.SpringApplication] No active profile set, falling back to default profiles: default
+[2019-12-19 16:45:04,746][INFO][main][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2019-12-19 16:45:05,114][INFO][main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[2019-12-19 16:45:05,123][INFO][main][org.apache.juli.logging.DirectJDKLog] Initializing ProtocolHandler ["http-nio-8080"]
+[2019-12-19 16:45:05,123][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting service [Tomcat]
+[2019-12-19 16:45:05,124][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2019-12-19 16:45:05,287][INFO][main][org.apache.juli.logging.DirectJDKLog] Initializing Spring embedded WebApplicationContext
+[2019-12-19 16:45:05,288][INFO][main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 1783 ms
+[2019-12-19 16:45:05,522][INFO][main][com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2019-12-19 16:45:05,838][INFO][main][com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2019-12-19 16:45:06,563][INFO][main][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] Initializing ExecutorService 'applicationTaskExecutor'
+[2019-12-19 16:45:06,618][INFO][main][org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page template: index
+[2019-12-19 16:45:06,800][INFO][main][springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] Context refreshed
+[2019-12-19 16:45:06,814][INFO][main][springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] Found 1 custom documentation plugin(s)
+[2019-12-19 16:45:06,825][INFO][main][springfox.documentation.spring.web.scanners.ApiListingReferenceScanner] Scanning for api listing references
+[2019-12-19 16:45:07,058][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting ProtocolHandler ["http-nio-8080"]
+[2019-12-19 16:45:07,080][INFO][main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[2019-12-19 16:45:07,083][INFO][main][org.springframework.boot.StartupInfoLogger] Started DemoApplication in 3.996 seconds (JVM running for 5.602)
+[2019-12-19 16:45:34,279][INFO][http-nio-8080-exec-1][org.apache.juli.logging.DirectJDKLog] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2019-12-19 16:45:34,280][INFO][http-nio-8080-exec-1][org.springframework.web.servlet.FrameworkServlet] Initializing Servlet 'dispatcherServlet'
+[2019-12-19 16:45:34,284][INFO][http-nio-8080-exec-1][org.springframework.web.servlet.FrameworkServlet] Completed initialization in 4 ms

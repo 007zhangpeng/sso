@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Insert title here</title>
+
+<script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="../js/jquery.cookie.js"></script>
+</head>
+<body>
+<div class="col-md-3 col-md-offset-4">
+
+
+            <tr>
+                <td>用户名
+                </td>
+                <td><input type="text" name="userName" class="form-control" id="userName">
+                </td>
+            </tr>
+            <tr>
+                <td>密码</td>
+                <td><input type="password" name="password"  class="form-control" id="password"> </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <button value="登录" class="btn btn-primary" id="button">登录</button>
+                </td>
+            </tr>
+            <tr>
+            </tr>
+
+</div>
+
+<script type="text/javascript">
+    $(function(){
+
+        //按钮单击时执行
+        $("#button").click(function(){
+
+            var userName = $('#userName').val();
+            var password = $('#password').val();
+            $.ajax({
+                type:"post",
+                url: "/user/doLogin",//提交URL
+                dataType: "json",
+              //  data: {'userName':$('#userName').val(),'password':$('#password').val()},//提交的数据
+                data:{
+                    "userName":userName,
+                    "password":password
+                },
+                success: function (data) {
+                    if(data.code ==200){
+                        var expiresDate= new Date();
+                        expiresDate.setTime(expiresDate.getTime() + (60*60*1000));
+                        $.cookie("token",data.token,{expires:expiresDate});
+                    }else {
+                        window.location.href="/user/login"
+                    }
+                },
+                error: function (data){
+                    window.location.href="/user/login"
+                }
+            });
+        });
+
+    });
+</script>
+</body>
+</html>

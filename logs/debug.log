@@ -1,0 +1,120 @@
+2019-12-19 16:00:12,257 DEBUG o.h.v.m.ResourceBundleMessageInterpolator [background-preinit] Loaded expression factory via original TCCL
+2019-12-19 16:00:12,264 DEBUG o.h.v.i.e.ValidatorFactoryImpl [background-preinit] HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-12-19 16:00:12,265 DEBUG o.h.v.i.e.ValidatorFactoryImpl [background-preinit] HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-12-19 16:00:12,265 DEBUG o.h.v.i.e.ValidatorFactoryImpl [background-preinit] HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-12-19 16:00:12,265 DEBUG o.h.v.i.e.ValidatorFactoryImpl [background-preinit] HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-12-19 16:00:12,265 DEBUG o.h.v.i.e.ValidatorFactoryImpl [background-preinit] HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-12-19 16:00:12,296 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2019-12-19 16:00:12,608 DEBUG o.a.i.l.LogFactory [main] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-12-19 16:00:12,611 DEBUG o.s.c.a.ClassPathScanningCandidateComponentProvider [main] Identified candidate component class: file [F:\demo\target\classes\com\example\demo\mappers\UserInfoMapper.class]
+2019-12-19 16:00:12,612 DEBUG o.m.l.Logger [main] Creating MapperFactoryBean with name 'userInfoMapper' and 'com.example.demo.mappers.UserInfoMapper' mapperInterface
+2019-12-19 16:00:12,612 DEBUG o.m.l.Logger [main] Enabling autowire by type for MapperFactoryBean with name 'userInfoMapper'.
+2019-12-19 16:00:13,293 DEBUG c.z.h.HikariConfig [main] Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2019-12-19 16:00:13,353 DEBUG c.z.h.HikariConfig [main] HikariPool-1 - configuration:
+2019-12-19 16:00:13,354 DEBUG c.z.h.HikariConfig [main] allowPoolSuspension.............false
+2019-12-19 16:00:13,355 DEBUG c.z.h.HikariConfig [main] autoCommit......................true
+2019-12-19 16:00:13,355 DEBUG c.z.h.HikariConfig [main] catalog.........................none
+2019-12-19 16:00:13,355 DEBUG c.z.h.HikariConfig [main] connectionInitSql...............none
+2019-12-19 16:00:13,356 DEBUG c.z.h.HikariConfig [main] connectionTestQuery.............none
+2019-12-19 16:00:13,356 DEBUG c.z.h.HikariConfig [main] connectionTimeout...............30000
+2019-12-19 16:00:13,356 DEBUG c.z.h.HikariConfig [main] dataSource......................none
+2019-12-19 16:00:13,356 DEBUG c.z.h.HikariConfig [main] dataSourceClassName.............none
+2019-12-19 16:00:13,357 DEBUG c.z.h.HikariConfig [main] dataSourceJNDI..................none
+2019-12-19 16:00:13,358 DEBUG c.z.h.HikariConfig [main] dataSourceProperties............{password=<masked>}
+2019-12-19 16:00:13,358 DEBUG c.z.h.HikariConfig [main] driverClassName................."com.mysql.cj.jdbc.Driver"
+2019-12-19 16:00:13,358 DEBUG c.z.h.HikariConfig [main] healthCheckProperties...........{}
+2019-12-19 16:00:13,359 DEBUG c.z.h.HikariConfig [main] healthCheckRegistry.............none
+2019-12-19 16:00:13,359 DEBUG c.z.h.HikariConfig [main] idleTimeout.....................600000
+2019-12-19 16:00:13,359 DEBUG c.z.h.HikariConfig [main] initializationFailTimeout.......1
+2019-12-19 16:00:13,359 DEBUG c.z.h.HikariConfig [main] isolateInternalQueries..........false
+2019-12-19 16:00:13,360 DEBUG c.z.h.HikariConfig [main] jdbcUrl.........................jdbc:mysql://localhost:3306/test?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8
+2019-12-19 16:00:13,360 DEBUG c.z.h.HikariConfig [main] leakDetectionThreshold..........0
+2019-12-19 16:00:13,360 DEBUG c.z.h.HikariConfig [main] maxLifetime.....................1800000
+2019-12-19 16:00:13,360 DEBUG c.z.h.HikariConfig [main] maximumPoolSize.................10
+2019-12-19 16:00:13,361 DEBUG c.z.h.HikariConfig [main] metricRegistry..................none
+2019-12-19 16:00:13,361 DEBUG c.z.h.HikariConfig [main] metricsTrackerFactory...........none
+2019-12-19 16:00:13,361 DEBUG c.z.h.HikariConfig [main] minimumIdle.....................10
+2019-12-19 16:00:13,361 DEBUG c.z.h.HikariConfig [main] password........................<masked>
+2019-12-19 16:00:13,361 DEBUG c.z.h.HikariConfig [main] poolName........................"HikariPool-1"
+2019-12-19 16:00:13,361 DEBUG c.z.h.HikariConfig [main] readOnly........................false
+2019-12-19 16:00:13,362 DEBUG c.z.h.HikariConfig [main] registerMbeans..................false
+2019-12-19 16:00:13,362 DEBUG c.z.h.HikariConfig [main] scheduledExecutor...............none
+2019-12-19 16:00:13,362 DEBUG c.z.h.HikariConfig [main] schema..........................none
+2019-12-19 16:00:13,363 DEBUG c.z.h.HikariConfig [main] threadFactory...................internal
+2019-12-19 16:00:13,363 DEBUG c.z.h.HikariConfig [main] transactionIsolation............default
+2019-12-19 16:00:13,363 DEBUG c.z.h.HikariConfig [main] username........................"root"
+2019-12-19 16:00:13,363 DEBUG c.z.h.HikariConfig [main] validationTimeout...............5000
+2019-12-19 16:00:13,535 DEBUG c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@35342d2f
+2019-12-19 16:00:13,548 DEBUG o.m.l.Logger [main] Property 'mapperLocations' was not specified.
+2019-12-19 16:00:13,607 DEBUG c.b.m.c.MybatisConfiguration [main] addMappedStatement: com.example.demo.mappers.UserInfoMapper.insert
+2019-12-19 16:00:13,612 DEBUG c.b.m.c.MybatisConfiguration [main] addMappedStatement: com.example.demo.mappers.UserInfoMapper.delete
+2019-12-19 16:00:13,615 DEBUG c.b.m.c.MybatisConfiguration [main] addMappedStatement: com.example.demo.mappers.UserInfoMapper.deleteByMap
+2019-12-19 16:00:13,633 DEBUG c.b.m.c.MybatisConfiguration [main] addMappedStatement: com.example.demo.mappers.UserInfoMapper.deleteById
+2019-12-19 16:00:13,635 DEBUG c.b.m.c.MybatisConfiguration [main] addMappedStatement: com.example.demo.mappers.UserInfoMapper.deleteBatchIds
+2019-12-19 16:00:13,638 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2019-12-19 16:00:13,639 DEBUG c.b.m.c.MybatisConfiguration [main] addMappedStatement: com.example.demo.mappers.UserInfoMapper.update
+2019-12-19 16:00:13,642 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c7f68b7
+2019-12-19 16:00:13,642 DEBUG c.b.m.c.MybatisConfiguration [main] addMappedStatement: com.example.demo.mappers.UserInfoMapper.updateById
+2019-12-19 16:00:13,643 DEBUG c.b.m.c.MybatisConfiguration [main] addMappedStatement: com.example.demo.mappers.UserInfoMapper.selectById
+2019-12-19 16:00:13,645 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d42628c
+2019-12-19 16:00:13,645 DEBUG c.b.m.c.MybatisConfiguration [main] addMappedStatement: com.example.demo.mappers.UserInfoMapper.selectBatchIds
+2019-12-19 16:00:13,648 DEBUG c.b.m.c.MybatisConfiguration [main] addMappedStatement: com.example.demo.mappers.UserInfoMapper.selectByMap
+2019-12-19 16:00:13,648 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c95dabe
+2019-12-19 16:00:13,650 DEBUG c.b.m.c.MybatisConfiguration [main] addMappedStatement: com.example.demo.mappers.UserInfoMapper.selectOne
+2019-12-19 16:00:13,651 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d6d9dc3
+2019-12-19 16:00:13,653 DEBUG c.b.m.c.MybatisConfiguration [main] addMappedStatement: com.example.demo.mappers.UserInfoMapper.selectCount
+2019-12-19 16:00:13,654 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@35e08ac7
+2019-12-19 16:00:13,656 DEBUG c.b.m.c.MybatisConfiguration [main] addMappedStatement: com.example.demo.mappers.UserInfoMapper.selectMaps
+2019-12-19 16:00:13,657 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7923841f
+2019-12-19 16:00:13,660 DEBUG c.b.m.c.MybatisConfiguration [main] addMappedStatement: com.example.demo.mappers.UserInfoMapper.selectMapsPage
+2019-12-19 16:00:13,661 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c3c6c2f
+2019-12-19 16:00:13,662 DEBUG c.b.m.c.MybatisConfiguration [main] addMappedStatement: com.example.demo.mappers.UserInfoMapper.selectObjs
+2019-12-19 16:00:13,663 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1627cf60
+2019-12-19 16:00:13,665 DEBUG c.b.m.c.MybatisConfiguration [main] addMappedStatement: com.example.demo.mappers.UserInfoMapper.selectList
+2019-12-19 16:00:13,666 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f1c02ea
+2019-12-19 16:00:13,666 DEBUG c.z.h.p.HikariPool [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2019-12-19 16:00:13,667 DEBUG c.b.m.c.MybatisConfiguration [main] addMappedStatement: com.example.demo.mappers.UserInfoMapper.selectPage
+2019-12-19 16:00:13,695 DEBUG o.h.v.i.e.r.TraversableResolvers [main] Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-12-19 16:00:13,695 DEBUG o.h.v.m.ResourceBundleMessageInterpolator [main] Loaded expression factory via original TCCL
+2019-12-19 16:00:13,697 DEBUG o.h.v.i.e.r.TraversableResolvers [main] Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-12-19 16:00:13,698 DEBUG o.h.v.i.e.ConfigurationImpl [main] Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-12-19 16:00:13,698 DEBUG o.h.v.i.e.ConfigurationImpl [main] Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-12-19 16:00:13,698 DEBUG o.h.v.i.e.ConfigurationImpl [main] Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-12-19 16:00:13,699 DEBUG o.h.v.i.x.c.ValidationXmlParser [main] Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-12-19 16:00:13,699 DEBUG o.h.v.i.x.c.ResourceLoaderHelper [main] Trying to load META-INF/validation.xml via user class loader
+2019-12-19 16:00:13,699 DEBUG o.h.v.i.x.c.ResourceLoaderHelper [main] Trying to load META-INF/validation.xml via TCCL
+2019-12-19 16:00:13,700 DEBUG o.h.v.i.x.c.ResourceLoaderHelper [main] Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-12-19 16:00:13,700 DEBUG o.h.v.i.x.c.ValidationXmlParser [main] No META-INF/validation.xml found. Using annotation based configuration only.
+2019-12-19 16:00:13,703 DEBUG o.h.v.i.e.ValidatorFactoryImpl [main] HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-12-19 16:00:13,703 DEBUG o.h.v.i.e.ValidatorFactoryImpl [main] HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-12-19 16:00:13,703 DEBUG o.h.v.i.e.ValidatorFactoryImpl [main] HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-12-19 16:00:13,703 DEBUG o.h.v.i.e.ValidatorFactoryImpl [main] HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-12-19 16:00:13,703 DEBUG o.h.v.i.e.ValidatorFactoryImpl [main] HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-12-19 16:00:20,541 DEBUG o.m.l.Logger [http-nio-8080-exec-1] Creating a new SqlSession
+2019-12-19 16:00:20,548 DEBUG o.m.l.Logger [http-nio-8080-exec-1] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240bc38a] was not registered for synchronization because synchronization is not active
+2019-12-19 16:00:20,574 DEBUG o.m.l.Logger [http-nio-8080-exec-1] JDBC Connection [HikariProxyConnection@1278360508 wrapping com.mysql.cj.jdbc.ConnectionImpl@35342d2f] will not be managed by Spring
+2019-12-19 16:00:20,576 DEBUG o.a.i.l.j.BaseJdbcLogger [http-nio-8080-exec-1] ==>  Preparing: SELECT id,name,age,sex FROM user_info 
+2019-12-19 16:00:20,594 DEBUG o.a.i.l.j.BaseJdbcLogger [http-nio-8080-exec-1] ==> Parameters: 
+2019-12-19 16:00:20,612 DEBUG o.a.i.l.j.BaseJdbcLogger [http-nio-8080-exec-1] <==      Total: 2
+2019-12-19 16:00:20,613 DEBUG o.m.l.Logger [http-nio-8080-exec-1] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240bc38a]
+2019-12-19 16:00:29,033 DEBUG o.m.l.Logger [http-nio-8080-exec-2] Creating a new SqlSession
+2019-12-19 16:00:29,034 DEBUG o.m.l.Logger [http-nio-8080-exec-2] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@11c6bb0d] was not registered for synchronization because synchronization is not active
+2019-12-19 16:00:29,036 DEBUG o.m.l.Logger [http-nio-8080-exec-2] JDBC Connection [HikariProxyConnection@520177477 wrapping com.mysql.cj.jdbc.ConnectionImpl@35342d2f] will not be managed by Spring
+2019-12-19 16:00:29,036 DEBUG o.a.i.l.j.BaseJdbcLogger [http-nio-8080-exec-2] ==>  Preparing: SELECT id,name,age,sex FROM user_info 
+2019-12-19 16:00:29,037 DEBUG o.a.i.l.j.BaseJdbcLogger [http-nio-8080-exec-2] ==> Parameters: 
+2019-12-19 16:00:29,040 DEBUG o.a.i.l.j.BaseJdbcLogger [http-nio-8080-exec-2] <==      Total: 2
+2019-12-19 16:00:29,041 DEBUG o.m.l.Logger [http-nio-8080-exec-2] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@11c6bb0d]
+2019-12-19 16:00:29,826 DEBUG o.m.l.Logger [http-nio-8080-exec-3] Creating a new SqlSession
+2019-12-19 16:00:29,827 DEBUG o.m.l.Logger [http-nio-8080-exec-3] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@719aedfc] was not registered for synchronization because synchronization is not active
+2019-12-19 16:00:29,827 DEBUG o.m.l.Logger [http-nio-8080-exec-3] JDBC Connection [HikariProxyConnection@2136808895 wrapping com.mysql.cj.jdbc.ConnectionImpl@35342d2f] will not be managed by Spring
+2019-12-19 16:00:29,828 DEBUG o.a.i.l.j.BaseJdbcLogger [http-nio-8080-exec-3] ==>  Preparing: SELECT id,name,age,sex FROM user_info 
+2019-12-19 16:00:29,828 DEBUG o.a.i.l.j.BaseJdbcLogger [http-nio-8080-exec-3] ==> Parameters: 
+2019-12-19 16:00:29,830 DEBUG o.a.i.l.j.BaseJdbcLogger [http-nio-8080-exec-3] <==      Total: 2
+2019-12-19 16:00:29,830 DEBUG o.m.l.Logger [http-nio-8080-exec-3] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@719aedfc]
+2019-12-19 16:00:43,640 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-12-19 16:01:13,641 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-12-19 16:01:43,642 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-12-19 16:02:13,644 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-12-19 16:02:43,645 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-12-19 16:03:13,646 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-12-19 16:03:43,648 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)

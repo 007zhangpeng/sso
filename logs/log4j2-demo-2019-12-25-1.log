@@ -1,0 +1,110 @@
+[2019-12-25 14:56:55,667][INFO][main][org.springframework.boot.StartupInfoLogger] Starting DemoApplication on SD-20191119HKSM with PID 3980 (F:\demo\target\classes started by Administrator in F:\demo)
+[2019-12-25 14:56:55,677][INFO][main][org.springframework.boot.SpringApplication] No active profile set, falling back to default profiles: default
+[2019-12-25 14:57:08,194][INFO][main][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2019-12-25 14:57:09,762][INFO][main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[2019-12-25 14:57:09,771][INFO][main][org.apache.juli.logging.DirectJDKLog] Initializing ProtocolHandler ["http-nio-8080"]
+[2019-12-25 14:57:09,771][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting service [Tomcat]
+[2019-12-25 14:57:09,772][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2019-12-25 14:57:09,863][INFO][main][org.apache.juli.logging.DirectJDKLog] Initializing Spring embedded WebApplicationContext
+[2019-12-25 14:57:09,863][INFO][main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 14104 ms
+[2019-12-25 14:57:10,094][INFO][main][com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2019-12-25 14:57:10,468][INFO][main][com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2019-12-25 14:57:22,712][INFO][main][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] Initializing ExecutorService 'applicationTaskExecutor'
+[2019-12-25 14:57:22,796][INFO][main][org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page template: index
+[2019-12-25 14:57:23,119][INFO][main][springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] Context refreshed
+[2019-12-25 14:57:24,556][INFO][main][springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] Found 1 custom documentation plugin(s)
+[2019-12-25 14:57:24,566][INFO][main][springfox.documentation.spring.web.scanners.ApiListingReferenceScanner] Scanning for api listing references
+[2019-12-25 14:57:25,574][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting ProtocolHandler ["http-nio-8080"]
+[2019-12-25 14:57:25,772][INFO][main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[2019-12-25 14:57:25,775][INFO][main][org.springframework.boot.StartupInfoLogger] Started DemoApplication in 30.45 seconds (JVM running for 32.105)
+[2019-12-25 15:24:51,349][INFO][main][org.springframework.boot.StartupInfoLogger] Starting DemoApplication on SD-20191119HKSM with PID 20856 (F:\demo\target\classes started by Administrator in F:\demo)
+[2019-12-25 15:24:51,353][INFO][main][org.springframework.boot.SpringApplication] No active profile set, falling back to default profiles: default
+[2019-12-25 15:24:52,207][INFO][main][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2019-12-25 15:24:52,401][INFO][main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[2019-12-25 15:24:52,410][INFO][main][org.apache.juli.logging.DirectJDKLog] Initializing ProtocolHandler ["http-nio-8080"]
+[2019-12-25 15:24:52,411][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting service [Tomcat]
+[2019-12-25 15:24:52,411][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2019-12-25 15:24:52,498][INFO][main][org.apache.juli.logging.DirectJDKLog] Initializing Spring embedded WebApplicationContext
+[2019-12-25 15:24:52,499][INFO][main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 1075 ms
+[2019-12-25 15:24:52,652][INFO][main][com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2019-12-25 15:24:52,806][INFO][main][com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2019-12-25 15:24:53,279][INFO][main][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] Initializing ExecutorService 'applicationTaskExecutor'
+[2019-12-25 15:24:53,329][INFO][main][org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page template: index
+[2019-12-25 15:24:53,477][INFO][main][springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] Context refreshed
+[2019-12-25 15:24:53,493][INFO][main][springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] Found 1 custom documentation plugin(s)
+[2019-12-25 15:24:53,505][INFO][main][springfox.documentation.spring.web.scanners.ApiListingReferenceScanner] Scanning for api listing references
+[2019-12-25 15:24:53,746][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting ProtocolHandler ["http-nio-8080"]
+[2019-12-25 15:24:53,766][INFO][main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[2019-12-25 15:24:53,769][INFO][main][org.springframework.boot.StartupInfoLogger] Started DemoApplication in 2.694 seconds (JVM running for 4.217)
+[2019-12-25 15:27:43,484][INFO][main][org.springframework.boot.StartupInfoLogger] Starting DemoApplication on SD-20191119HKSM with PID 19572 (F:\demo\target\classes started by Administrator in F:\demo)
+[2019-12-25 15:27:43,489][INFO][main][org.springframework.boot.SpringApplication] No active profile set, falling back to default profiles: default
+[2019-12-25 15:27:44,408][INFO][main][org.springframework.data.repository.config.RepositoryConfigurationDelegate] Multiple Spring Data modules found, entering strict repository configuration mode!
+[2019-12-25 15:27:44,410][INFO][main][org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2019-12-25 15:27:44,440][INFO][main][org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 19ms. Found 0 JPA repository interfaces.
+[2019-12-25 15:27:44,462][INFO][main][org.springframework.data.repository.config.RepositoryConfigurationDelegate] Multiple Spring Data modules found, entering strict repository configuration mode!
+[2019-12-25 15:27:44,465][INFO][main][org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2019-12-25 15:27:44,486][INFO][main][org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 2ms. Found 0 Redis repository interfaces.
+[2019-12-25 15:27:44,892][INFO][main][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2019-12-25 15:27:45,136][INFO][main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[2019-12-25 15:27:45,143][INFO][main][org.apache.juli.logging.DirectJDKLog] Initializing ProtocolHandler ["http-nio-8080"]
+[2019-12-25 15:27:45,144][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting service [Tomcat]
+[2019-12-25 15:27:45,144][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2019-12-25 15:27:45,318][INFO][main][org.apache.juli.logging.DirectJDKLog] Initializing Spring embedded WebApplicationContext
+[2019-12-25 15:27:45,319][INFO][main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 1758 ms
+[2019-12-25 15:27:45,455][INFO][main][com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2019-12-25 15:27:45,554][INFO][main][com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2019-12-25 15:27:45,683][INFO][main][org.hibernate.Version] HHH000412: Hibernate Core {5.4.9.Final}
+[2019-12-25 15:27:45,833][INFO][main][org.hibernate.annotations.common.reflection.java.JavaReflectionManager] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2019-12-25 15:27:45,981][INFO][main][org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[2019-12-25 15:27:46,174][INFO][main][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2019-12-25 15:27:46,181][INFO][main][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2019-12-25 15:27:46,590][WARN][main][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2019-12-25 15:27:46,787][INFO][main][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] Initializing ExecutorService 'applicationTaskExecutor'
+[2019-12-25 15:27:46,840][INFO][main][org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page template: index
+[2019-12-25 15:27:47,301][INFO][main][springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] Context refreshed
+[2019-12-25 15:27:47,314][INFO][main][springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] Found 1 custom documentation plugin(s)
+[2019-12-25 15:27:47,325][INFO][main][springfox.documentation.spring.web.scanners.ApiListingReferenceScanner] Scanning for api listing references
+[2019-12-25 15:27:47,541][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting ProtocolHandler ["http-nio-8080"]
+[2019-12-25 15:27:47,563][INFO][main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[2019-12-25 15:27:47,565][INFO][main][org.springframework.boot.StartupInfoLogger] Started DemoApplication in 4.341 seconds (JVM running for 5.902)
+[2019-12-25 15:42:49,048][INFO][main][org.springframework.boot.StartupInfoLogger] Starting DemoApplication on SD-20191119HKSM with PID 8840 (F:\demo\target\classes started by Administrator in F:\demo)
+[2019-12-25 15:42:49,054][INFO][main][org.springframework.boot.SpringApplication] No active profile set, falling back to default profiles: default
+[2019-12-25 15:42:50,059][INFO][main][org.springframework.data.repository.config.RepositoryConfigurationDelegate] Multiple Spring Data modules found, entering strict repository configuration mode!
+[2019-12-25 15:42:50,060][INFO][main][org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2019-12-25 15:42:50,084][INFO][main][org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 16ms. Found 0 JPA repository interfaces.
+[2019-12-25 15:42:50,098][INFO][main][org.springframework.data.repository.config.RepositoryConfigurationDelegate] Multiple Spring Data modules found, entering strict repository configuration mode!
+[2019-12-25 15:42:50,099][INFO][main][org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2019-12-25 15:42:50,108][INFO][main][org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 2ms. Found 0 Redis repository interfaces.
+[2019-12-25 15:42:50,417][INFO][main][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2019-12-25 15:42:50,446][INFO][main][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] Bean 'redisConfig' of type [com.example.demo.configuration.RedisConfig$$EnhancerBySpringCGLIB$$5d213395] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2019-12-25 15:42:50,760][INFO][main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[2019-12-25 15:42:50,769][INFO][main][org.apache.juli.logging.DirectJDKLog] Initializing ProtocolHandler ["http-nio-8080"]
+[2019-12-25 15:42:50,769][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting service [Tomcat]
+[2019-12-25 15:42:50,770][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2019-12-25 15:42:50,872][INFO][main][org.apache.juli.logging.DirectJDKLog] Initializing Spring embedded WebApplicationContext
+[2019-12-25 15:42:50,872][INFO][main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 1726 ms
+[2019-12-25 15:42:51,206][INFO][main][com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2019-12-25 15:42:51,347][INFO][main][com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2019-12-25 15:42:51,458][INFO][main][org.hibernate.Version] HHH000412: Hibernate Core {5.4.9.Final}
+[2019-12-25 15:42:51,583][INFO][main][org.hibernate.annotations.common.reflection.java.JavaReflectionManager] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2019-12-25 15:42:51,733][INFO][main][org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[2019-12-25 15:42:51,925][INFO][main][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2019-12-25 15:42:51,933][INFO][main][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2019-12-25 15:42:52,443][WARN][main][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2019-12-25 15:42:52,657][INFO][main][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] Initializing ExecutorService 'applicationTaskExecutor'
+[2019-12-25 15:42:52,720][INFO][main][org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page template: index
+[2019-12-25 15:42:52,978][INFO][main][springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] Context refreshed
+[2019-12-25 15:42:52,993][INFO][main][springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] Found 1 custom documentation plugin(s)
+[2019-12-25 15:42:53,005][INFO][main][springfox.documentation.spring.web.scanners.ApiListingReferenceScanner] Scanning for api listing references
+[2019-12-25 15:42:53,274][INFO][main][org.apache.juli.logging.DirectJDKLog] Starting ProtocolHandler ["http-nio-8080"]
+[2019-12-25 15:42:53,425][INFO][main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[2019-12-25 15:42:53,428][INFO][main][org.springframework.boot.StartupInfoLogger] Started DemoApplication in 4.74 seconds (JVM running for 7.2)
+[2019-12-25 15:47:56,942][INFO][http-nio-8080-exec-1][org.apache.juli.logging.DirectJDKLog] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2019-12-25 15:47:56,942][INFO][http-nio-8080-exec-1][org.springframework.web.servlet.FrameworkServlet] Initializing Servlet 'dispatcherServlet'
+[2019-12-25 15:47:56,953][INFO][http-nio-8080-exec-1][org.springframework.web.servlet.FrameworkServlet] Completed initialization in 11 ms
+[2019-12-25 15:48:25,689][INFO][http-nio-8080-exec-2][io.lettuce.core.EpollProvider] Starting without optional epoll library
+[2019-12-25 15:48:25,691][INFO][http-nio-8080-exec-2][io.lettuce.core.KqueueProvider] Starting without optional kqueue library
+[2019-12-25 17:36:01,909][INFO][SpringContextShutdownHook][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] Shutting down ExecutorService 'applicationTaskExecutor'
+[2019-12-25 17:36:01,913][INFO][SpringContextShutdownHook][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2019-12-25 17:36:01,925][INFO][SpringContextShutdownHook][com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2019-12-25 17:36:01,931][INFO][SpringContextShutdownHook][com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
