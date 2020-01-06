@@ -4,6 +4,7 @@ package com.example.demo.controller;
 import com.example.demo.configuration.PassToken;
 import com.example.demo.entity.UserInfo;
 import com.example.demo.service.IUserInfoService;
+import com.example.demo.util.QRCodeUtil;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,7 +12,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * <p>
@@ -56,7 +58,7 @@ public class UserInfoController {
     @PassToken
     public List<UserInfo> selectUserByMap(){
 
-        
+
         List<UserInfo> userInfos = new ArrayList<>();
         UserInfo u1 = new UserInfo();
         UserInfo u2 = new UserInfo();
@@ -71,5 +73,24 @@ public class UserInfoController {
         return  userInfoService.selectUserByMap(userInfos);
     }
 
+
+    public static void main(String[] args) throws Exception {
+// 存放在二维码中的内容
+        String path = "C:\\Users\\Administrator\\Desktop\\123.jpg";
+        System.out.println(path);
+        String text = "https://www.baidu.com";
+        // 嵌入二维码的图片路径
+        // 生成的二维码的路径及名称
+        String destPath = "F:/test.jpg";
+        //生成二维码
+        QRCodeUtil.encode(text, path, destPath, true);
+        // 解析二维码
+        String str = QRCodeUtil.decode(destPath);
+        // 打印出解析出的内容
+        System.out.println(str);
+
+
+
+    }
 
 }
