@@ -11,5 +11,14 @@
         <result column="userName" property="userName" />
         <result column="password" property="password" />
     </resultMap>
+    <select id="selectUserByMap" resultType="com.example.demo.entity.UserInfo">
+    select  * from user_info
+        <where>
+            <foreach collection="list" index="index" item="item" open="and (" separator=" or " close=")">
+                (id = #{item.id} and name = #{item.name})
+            </foreach>
+        </where>
+
+    </select>
 
 </mapper>

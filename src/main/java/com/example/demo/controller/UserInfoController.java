@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
-import java.util.List;
+import java.util.*;
 
 /**
  * <p>
@@ -48,6 +48,27 @@ public class UserInfoController {
     @RequestMapping(value = "/delete/{id}",method = RequestMethod.GET)
     public boolean deleteById(@PathVariable Integer id){
         return  userInfoService.removeById(id);
+    }
+
+
+    @ApiOperation(value="获取用户详细信息", notes="获取用户详细信息")
+    @RequestMapping(value = "/selectUserByMap",method = RequestMethod.GET)
+    @PassToken
+    public List<UserInfo> selectUserByMap(){
+
+        
+        List<UserInfo> userInfos = new ArrayList<>();
+        UserInfo u1 = new UserInfo();
+        UserInfo u2 = new UserInfo();
+        UserInfo u3 = new UserInfo();
+        u1.setId(2);
+        u2.setId(6);
+        u3.setId(8);
+        u1.setName("威威");
+        u2.setName("啦啦");
+        u3.setName("www");
+        userInfos.add(u1);userInfos.add(u2);userInfos.add(u3);
+        return  userInfoService.selectUserByMap(userInfos);
     }
 
 
